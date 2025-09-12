@@ -897,46 +897,46 @@ app.get("/info", (c) => {
   });
 });
 
-const port = 3002;
+// const port = 3002;
 
 export default app;
 
-if (import.meta.main) {
-  console.log("🚀 Starting Comprehensive MCP Demo Server...");
-  console.log(`📍 Port: ${port}`);
-  console.log(`🔗 Health check: http://localhost:${port}/health`);
-  console.log(`📊 Server info: http://localhost:${port}/info`);
-  console.log(`🔌 MCP endpoint: http://localhost:${port}/mcp`);
-  console.log("");
-  console.log("📚 Available Tools:");
-  console.log("  • echo - Message echoing with repetition");
-  console.log("  • add - Mathematical addition");
-  console.log("  • multiply - Mathematical multiplication");
-  console.log(
-    "  • longRunningOperation - Progress demonstration with ctx.progress()",
-  );
-  console.log("  • getWeather - Weather information (mocked)");
-  console.log("  • getTinyImage - Base64 image generation");
-  console.log("  • annotatedMessage - Rich content responses");
-  console.log("  • listFiles - File system simulation");
-  console.log("  • generateId - ID generation utilities");
-  console.log("");
-  console.log("📄 Available Resources:");
-  console.log("  • file://config.json - Application configuration");
-  console.log("  • file://readme.md - Documentation");
-  console.log("  • file://sample.txt - Sample text content");
-  console.log("  • file://{path} - Dynamic file templates");
-  console.log("  • data://{type}/{id} - Data resource templates");
-  console.log("");
-  console.log("💬 Available Prompts:");
-  console.log("  • codeReview - Code review generation");
-  console.log("  • explainConcept - Educational explanations");
-  console.log("  • generateDocumentation - Documentation generation");
-  console.log("  • summarizeContent - Content summarization");
-  console.log("");
+// if (import.meta.main) {
+//   console.log("🚀 Starting Comprehensive MCP Demo Server...");
+//   console.log(`📍 Port: ${port}`);
+//   console.log(`🔗 Health check: http://localhost:${port}/health`);
+//   console.log(`📊 Server info: http://localhost:${port}/info`);
+//   console.log(`🔌 MCP endpoint: http://localhost:${port}/mcp`);
+//   console.log("");
+//   console.log("📚 Available Tools:");
+//   console.log("  • echo - Message echoing with repetition");
+//   console.log("  • add - Mathematical addition");
+//   console.log("  • multiply - Mathematical multiplication");
+//   console.log(
+//     "  • longRunningOperation - Progress demonstration with ctx.progress()",
+//   );
+//   console.log("  • getWeather - Weather information (mocked)");
+//   console.log("  • getTinyImage - Base64 image generation");
+//   console.log("  • annotatedMessage - Rich content responses");
+//   console.log("  • listFiles - File system simulation");
+//   console.log("  • generateId - ID generation utilities");
+//   console.log("");
+//   console.log("📄 Available Resources:");
+//   console.log("  • file://config.json - Application configuration");
+//   console.log("  • file://readme.md - Documentation");
+//   console.log("  • file://sample.txt - Sample text content");
+//   console.log("  • file://{path} - Dynamic file templates");
+//   console.log("  • data://{type}/{id} - Data resource templates");
+//   console.log("");
+//   console.log("💬 Available Prompts:");
+//   console.log("  • codeReview - Code review generation");
+//   console.log("  • explainConcept - Educational explanations");
+//   console.log("  • generateDocumentation - Documentation generation");
+//   console.log("  • summarizeContent - Content summarization");
+//   console.log("");
 
-  Bun.serve({
-    port,
-    fetch: app.fetch,
-  });
-}
+//   Bun.serve({
+//     port,
+//     fetch: app.fetch,
+//   });
+// }

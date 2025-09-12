@@ -1,9 +1,9 @@
 {
-  "name": "playground",
+  "name": "everything-mcp-lite",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "bun run everything.ts"
+    "start": "bun run src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
