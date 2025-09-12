@@ -1,2 +1,4 @@
 node_modules
 .DS_Store
+# so others can use this repo as a template, ignore .fiberplane
+.fiberplane
