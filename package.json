@@ -13,7 +13,7 @@
   "dependencies": {
     "@fiberplane/cli": "^0.2.1",
     "hono": "^4.9.5",
-    "mcp-lite": "0.2.0",
+    "mcp-lite": "0.3.0",
     "zod": "^4.1.5"
   }
 }
