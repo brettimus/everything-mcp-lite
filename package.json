@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun run src/index.ts",
+    "inspect": "bunx @modelcontextprotocol/inspector",
     "deploy": "fiberplane-cli deploy",
     "deploy:preview": "FIBERPLANE_API_URL=https://preview.fiberplane.io FIBERPLANE_AUTH_URL=https://auth-preview.fiberplane.io fiberplane-cli deploy"
   },
